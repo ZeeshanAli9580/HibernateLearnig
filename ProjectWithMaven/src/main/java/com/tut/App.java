@@ -28,7 +28,8 @@ public class App
 		String cityName=sc.next();
 		st.setCity(cityName);
 		st.setId(101);
-		st.setName("Zeeshan Ali");
+		System.out.println("Please enter your Name");
+		st.setName(sc.next());
 		
 		System.out.println(st);
 		System.out.println("");
